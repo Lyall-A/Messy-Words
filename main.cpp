@@ -19,6 +19,6 @@ int main() {
     replace(messy.begin(), messy.end(), 'T', '7');
 
     cout << messy;
-    system("pause", "Press any key to close")
+    system("pause", "Press any key to close");
     return 0;
 }
