@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <cstdlib>
 
 using namespace std;
 
@@ -18,7 +19,8 @@ int main() {
     replace(messy.begin(), messy.end(), 'S', '5');
     replace(messy.begin(), messy.end(), 'T', '7');
 
-    cout << messy;
-    system("pause", "Press any key to close");
+    cout << "Messy: " << messy << "\n\n";
+    system("echo Press any key to close");
+    system("pause>nul");
     return 0;
 }
